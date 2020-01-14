@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.sahmed.test"
+        applicationId "com.mopro.uas.Login_Kit"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
