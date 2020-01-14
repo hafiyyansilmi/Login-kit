@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mopro.uas.test">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
 
         <meta-data
             android:name="preloaded_fonts"
@@ -43,18 +45,6 @@
             </intent-filter>
         </activity>
 
-
-        <activity android:name="com.mopro.uas.Login_Kit.AlphabetPage"
-            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
-        <activity android:name="com.mopro.uas.Login_Kit.SambungPage"
-            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
-        <activity android:name="com.mopro.uas.Login_Kit.LarangPage"
-            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
-        <activity android:name="com.mopro.uas.Login_Kit.BerkaitanPage"
-            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
-        <activity android:name="com.mopro.uas.Login_Kit.SecondActivity"></activity>
-
-        <uses-permission android:name="android.permission.INTERNET"/>
 
     </application>
 

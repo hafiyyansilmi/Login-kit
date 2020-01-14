@@ -10,5 +10,7 @@
     <string name="facebook_app_id">600152574120808</string>
     <string name="fb_login_protocol_scheme">fb600152574120808</string>
     <string name="app_name">Login Kit</string>
+    <string name="cancel_login">Login Cancelled</string>
+    <string name="error_login">Login Error !</string>
 
 </resources>
