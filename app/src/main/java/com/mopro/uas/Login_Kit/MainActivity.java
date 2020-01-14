@@ -10,6 +10,10 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
+
 import com.mopro.uas.test.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +23,8 @@ private Button button, button1, button2, button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
         setContentView(R.layout.activity_main);
 
 //        final MediaPlayer salaamMP = MediaPlayer.create(this, R.raw.salaam);

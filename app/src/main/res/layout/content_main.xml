@@ -20,7 +20,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/socmed"
+        android:text="@string/app_name"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp"
         android:textStyle="bold"

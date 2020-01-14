@@ -7,4 +7,8 @@
     <string name="socmed">Social media</string>
     <string name="desk">Deskripsi</string>
     <string name="clickToGetStarted">Tap here to start learning Arabic!</string>
+    <string name="facebook_app_id">600152574120808</string>
+    <string name="fb_login_protocol_scheme">fb600152574120808</string>
+    <string name="app_name">Login Kit</string>
+
 </resources>
