@@ -1,23 +1,19 @@
-package com.example.sahmed.ArabicAlphabetApp;
+package com.mopro.uas.Login_Kit;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.sahmed.test.R;
+import com.mopro.uas.test.R;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 
-public class LarangPage extends AppCompatActivity {
+public class BerkaitanPage extends AppCompatActivity {
 
     private ImageView mImageView;
     private TextView mTextView;
@@ -26,9 +22,9 @@ public class LarangPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.larang_page);
+        setContentView(R.layout.berkaitan_page);
 
-        getSupportActionBar().setTitle("Activity Larang");
+        getSupportActionBar().setTitle("Activity Berkaitan");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mImageView = (ImageView) findViewById(R.id.imageView);
@@ -44,9 +40,9 @@ public class LarangPage extends AppCompatActivity {
             }
         });
 
-        /*Button btn = (Button) findViewById(R.id.button2);
+/*        Button btn = (Button) findViewById(R.id.button3);
 
-        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(LarangPage.this);
+        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(BerkaitanPage.this);
 
         alertBuilder.setPositiveButton("I'm ready!!!", new DialogInterface.OnClickListener() {
             @Override
@@ -61,15 +57,17 @@ public class LarangPage extends AppCompatActivity {
 */
     }
 
-    Descs d01 = new Descs(R.drawable.aaa,"aaaaaaa");
-    Descs d02 = new Descs(R.drawable.bbb,"");
-    Descs d03 = new Descs(R.drawable.ccc,"");
-    Descs d04 = new Descs(R.drawable.ddd,"");
-    Descs d05 = new Descs(R.drawable.eee,"");
-    Descs d06 = new Descs(R.drawable.fff,"");
+    Descs d01 = new Descs(R.drawable.aaaa,"aaaaaaa");
+    Descs d02 = new Descs(R.drawable.bbbb,"");
+    Descs d03 = new Descs(R.drawable.cccc,"");
+    Descs d04 = new Descs(R.drawable.dddd,"");
+    Descs d05 = new Descs(R.drawable.eeee,"");
+    Descs d06 = new Descs(R.drawable.ffff,"");
+    Descs d07 = new Descs(R.drawable.gggg,"");
+    Descs d08 = new Descs(R.drawable.hhhh,"");
 
     Descs[] descArray = new Descs[]{
-            d01, d02, d03, d04, d05, d06
+            d01, d02, d03, d04, d05, d06, d07, d08
     };
 
     public void showRandomDesc() {

@@ -1,7 +1,6 @@
-package com.example.sahmed.ArabicAlphabetApp;
+package com.mopro.uas.Login_Kit;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import android.support.v7.app.AppCompatActivity;
@@ -10,10 +9,8 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import com.example.sahmed.test.R;
+import com.mopro.uas.test.R;
 
 public class MainActivity extends AppCompatActivity {
 

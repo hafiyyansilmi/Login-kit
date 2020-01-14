@@ -1,4 +1,4 @@
-package com.example.sahmed.ArabicAlphabetApp;
+package com.mopro.uas.Login_Kit;
 
 public class Descs {
 

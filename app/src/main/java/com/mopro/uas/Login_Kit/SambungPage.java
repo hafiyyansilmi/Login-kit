@@ -1,23 +1,19 @@
-package com.example.sahmed.ArabicAlphabetApp;
+package com.mopro.uas.Login_Kit;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.sahmed.test.R;
+import com.mopro.uas.test.R;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 
-public class BerkaitanPage extends AppCompatActivity {
+public class SambungPage extends AppCompatActivity {
 
     private ImageView mImageView;
     private TextView mTextView;
@@ -26,9 +22,9 @@ public class BerkaitanPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.berkaitan_page);
+        setContentView(R.layout.sambung_page);
 
-        getSupportActionBar().setTitle("Activity Berkaitan");
+        getSupportActionBar().setTitle("Activity Sambung");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mImageView = (ImageView) findViewById(R.id.imageView);
@@ -44,9 +40,10 @@ public class BerkaitanPage extends AppCompatActivity {
             }
         });
 
-/*        Button btn = (Button) findViewById(R.id.button3);
-
-        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(BerkaitanPage.this);
+//        Button btn = (Button) findViewById(R.id.button1);
+//        Button mButton = (Button)findViewById(R.id.desc_button);
+        /*
+        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(SambungPage.this);
 
         alertBuilder.setPositiveButton("I'm ready!!!", new DialogInterface.OnClickListener() {
             @Override
@@ -58,20 +55,22 @@ public class BerkaitanPage extends AppCompatActivity {
         alert.setMessage("Are you ready? \n\nTouch a letter to hear it's pronunciation!");
         alert.show();
         final Animation animPopOut = AnimationUtils.loadAnimation(this, R.anim.letter_pop);
-*/
+        */
     }
 
-    Descs d01 = new Descs(R.drawable.aaaa,"aaaaaaa");
-    Descs d02 = new Descs(R.drawable.bbbb,"");
-    Descs d03 = new Descs(R.drawable.cccc,"");
-    Descs d04 = new Descs(R.drawable.dddd,"");
-    Descs d05 = new Descs(R.drawable.eeee,"");
-    Descs d06 = new Descs(R.drawable.ffff,"");
-    Descs d07 = new Descs(R.drawable.gggg,"");
-    Descs d08 = new Descs(R.drawable.hhhh,"");
+    Descs d01 = new Descs(R.drawable.aa,"aaaaaaa");
+    Descs d02 = new Descs(R.drawable.bb,"");
+    Descs d03 = new Descs(R.drawable.cc,"");
+    Descs d04 = new Descs(R.drawable.dd,"");
+    Descs d05 = new Descs(R.drawable.ee,"");
+    Descs d06 = new Descs(R.drawable.ff,"");
+    Descs d07 = new Descs(R.drawable.gg,"");
+    Descs d08 = new Descs(R.drawable.hh,"");
+    Descs d09 = new Descs(R.drawable.ii,"");
+    Descs d10 = new Descs(R.drawable.jj,"");
 
     Descs[] descArray = new Descs[]{
-            d01, d02, d03, d04, d05, d06, d07, d08
+            d01, d02, d03, d04, d05, d06, d07, d08, d09, d10
     };
 
     public void showRandomDesc() {

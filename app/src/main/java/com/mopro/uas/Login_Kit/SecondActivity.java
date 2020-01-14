@@ -1,19 +1,9 @@
-package com.example.sahmed.ArabicAlphabetApp;
+package com.mopro.uas.Login_Kit;
 
 import android.support.v7.app.AppCompatActivity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
-import com.example.sahmed.test.R;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Arrays;
-import java.util.Collections;
+import com.mopro.uas.test.R;
 
 public class SecondActivity extends AppCompatActivity {
 

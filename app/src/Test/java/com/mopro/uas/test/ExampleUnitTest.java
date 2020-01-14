@@ -1,4 +1,4 @@
-package com.example.sahmed.test;
+package com.mopro.uas.test;
 
 import org.junit.Test;
 

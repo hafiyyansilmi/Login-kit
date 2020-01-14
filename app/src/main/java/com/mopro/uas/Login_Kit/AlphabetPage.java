@@ -1,4 +1,4 @@
-package com.example.sahmed.ArabicAlphabetApp;
+package com.mopro.uas.Login_Kit;
 
 import android.content.DialogInterface;
 import android.media.AudioAttributes;
@@ -18,7 +18,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 
-import com.example.sahmed.test.R;
+import com.mopro.uas.test.R;
 
 
 

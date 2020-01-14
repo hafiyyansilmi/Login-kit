@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.sahmed.test">
+    package="com.mopro.uas.test">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="com.example.sahmed.ArabicAlphabetApp.MainActivity"
+            android:name="com.mopro.uas.Login_Kit.MainActivity"
             android:label="@string/ayoBelajar"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -26,15 +26,15 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name="com.example.sahmed.ArabicAlphabetApp.AlphabetPage"
-            android:parentActivityName="com.example.sahmed.ArabicAlphabetApp.MainActivity"></activity>
-        <activity android:name="com.example.sahmed.ArabicAlphabetApp.SambungPage"
-            android:parentActivityName="com.example.sahmed.ArabicAlphabetApp.MainActivity"></activity>
-        <activity android:name="com.example.sahmed.ArabicAlphabetApp.LarangPage"
-            android:parentActivityName="com.example.sahmed.ArabicAlphabetApp.MainActivity"></activity>
-        <activity android:name="com.example.sahmed.ArabicAlphabetApp.BerkaitanPage"
-            android:parentActivityName="com.example.sahmed.ArabicAlphabetApp.MainActivity"></activity>
-        <activity android:name="com.example.sahmed.ArabicAlphabetApp.SecondActivity"></activity>
+        <activity android:name="com.mopro.uas.Login_Kit.AlphabetPage"
+            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
+        <activity android:name="com.mopro.uas.Login_Kit.SambungPage"
+            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
+        <activity android:name="com.mopro.uas.Login_Kit.LarangPage"
+            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
+        <activity android:name="com.mopro.uas.Login_Kit.BerkaitanPage"
+            android:parentActivityName="com.mopro.uas.Login_Kit.MainActivity"></activity>
+        <activity android:name="com.mopro.uas.Login_Kit.SecondActivity"></activity>
     </application>
 
 </manifest>
