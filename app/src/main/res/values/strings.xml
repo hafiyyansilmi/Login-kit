@@ -12,7 +12,7 @@
     <string name="cancel_login">Login Cancelled</string>
     <string name="error_login">Login Error !</string>
 
-    <string name="google_app_id">830559387004-cjao94l754g32clf8gk4780g9ekfveq9.apps.googleusercontent.com</string>
+    <string name="server_client_id">830559387004-cjao94l754g32clf8gk4780g9ekfveq9.apps.googleusercontent.com</string>
 
     <!-- Sign-in status messages -->
     <string name="signed_in_fmt">Signed in as: %s</string>
